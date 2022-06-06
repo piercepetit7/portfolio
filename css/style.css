@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+::after{
+    box-sizing: inherit;
+}
+
 #header {
     text-align: center;
     padding-top: 100px;
@@ -8,10 +16,15 @@
 }
 
 .tiles {
-    text-align: center;
     display: grid;
-    background-color: chartreuse;
+    text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-;
+}
 
+.tiles > div {
+    padding: 12px;
+    background-color: rgb(103, 94, 94);
+    text-align: center;
+    box-shadow: 0px 0px 10px #000;
+    margin: 220px auto 220px auto;
 }
