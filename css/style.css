@@ -1,0 +1,17 @@
+#header {
+    text-align: center;
+    padding-top: 100px;
+    }
+
+#headerPic {
+    height: 250px;
+}
+
+.tiles {
+    text-align: center;
+    display: grid;
+    background-color: chartreuse;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-;
+
+}
