@@ -1,10 +1,9 @@
-# portfolio
-
-// layout for project page
-<!-- {
+let projectData = [
+    {
         title: ,
         deployment: ,
         image: ,
         github: ,
         info: ,
-    }, -->
+    },
+]
