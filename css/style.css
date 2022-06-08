@@ -22,12 +22,12 @@ html {
 .tiles {
     display: grid;
     text-align: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
     
 }
 
 .tiles > div {
-    padding: 12px;
+    padding: auto;
     background-color: rgb(103, 94, 94);
     text-align: center;
     box-shadow: 10px 10px 10px  #000;
@@ -38,12 +38,31 @@ html {
     background-color: black;
     color: rgb(103, 94, 94) ;
 }
+
+#aboutMePage {
+    text-align: center;
+}
+
 #pastWorkCar {
-    padding: 60px 100px 60px 100px ;
+    margin: 10px ;
+    max-width: 2550px;
+    min-height: 400px;
 }
 .contact {
-    margin:100px 100px 100px 100px;
-    /*background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);*/
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);
+}
+#resumePage {
+    flex-direction: row;
+    display:flex;
+}
+
+resume{
+    text-size-adjust: ;
+    text: center
 }
 
 @media only screen and (max-width:768px) {
