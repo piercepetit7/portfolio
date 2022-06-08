@@ -1,6 +1,15 @@
 html {
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+    display: grid;
+    
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-areas: header; */
+
+}
 
 ::after{
     box-sizing: inherit;
@@ -14,11 +23,16 @@ html {
 #headerPic {
     height: 250px;
 }
+.topPage {
+    background-image:url(/assets/images/pexels-eberhard-grossgasteiger-1366907.jpg);
+    background-size:cover;
 
+}
 .tiles {
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
 }
 
 .tiles > div {
@@ -31,11 +45,11 @@ html {
 #pastWorkCar {
     padding: 60px 100px 60px 100px ;
 }
-/* .d-block w-100 {
-    width: 200px;
-} */
-/* #resumepdf {
-    width: 100px;
-    height: 200px;
+.contact {
+    margin:100px 100px 100px 100px;
+    /*background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);*/
+}
 
-} */
+@media only screen and (max-width: 768px) {
+    body
+}
