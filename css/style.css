@@ -1,15 +1,6 @@
 html {
     box-sizing: border-box;
 }
-body {
-    margin: 0;
-    display: grid;
-    
-    /* grid-template-columns: 1fr;
-    grid-template-rows: 50px 50px 50px 50px;
-    grid-template-areas: header; */
-
-}
 
 ::after{
     box-sizing: inherit;
@@ -39,8 +30,13 @@ body {
     padding: 12px;
     background-color: rgb(103, 94, 94);
     text-align: center;
-    box-shadow: 0px 0px 10px #000;
+    box-shadow: 10px 10px 10px  #000;
     margin: 220px auto 220px auto;
+    color: whitesmoke;
+}
+.tiles > div:hover {
+    background-color: black;
+    color: rgb(103, 94, 94) ;
 }
 #pastWorkCar {
     padding: 60px 100px 60px 100px ;
@@ -50,6 +46,6 @@ body {
     /*background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);*/
 }
 
-@media only screen and (max-width: 768px) {
-    body
+@media only screen and (max-width:768px) {
+    
 }
