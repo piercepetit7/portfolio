@@ -14,7 +14,9 @@ html {
     text-shadow: 0 0 1em #f9aec9;
     font-family: 'Neonderthaw', cursive;
 }
-
+#header > h1 {
+    font-size: 70px;
+}
 #headerPic {
     height: 350px;
 }
@@ -30,7 +32,7 @@ html {
 .tiles {
     display: grid;
     text-align: center;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
     font-family: 'Share Tech Mono', monospace;
 }
 
@@ -39,7 +41,7 @@ html {
     background-color: rgb(9, 1, 1);
     text-align: center;
     box-shadow: 10px 10px 10px  rgb(231, 91, 91);
-    margin: 220px auto 220px auto;
+    margin: 20px auto 20px auto;
     color: rgb(69, 145, 195);
 }
 .tiles > div:hover {
@@ -73,7 +75,7 @@ html {
     color: rgb(231, 91, 91);
 }
 
-.contact {
+.contactPage {
     padding: 300px ;
     font-family: 'Share Tech Mono', monospace;
     color: yellow;
@@ -92,7 +94,7 @@ html {
     font-family: 'Share Tech Mono', monospace;
 }
 
-.devWork {
+.devWorkPage {
     font-family: 'Share Tech Mono', monospace;
 }
 
@@ -105,6 +107,12 @@ html {
     
 }
 
-@media only screen and (max-width:768px) {
-    
+@media only screen and (min-width:768px) {
+    .tiles {
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100%;
+    }
+    .tiles > div {
+        margin: 220px auto 220px auto;
+    }
 }
