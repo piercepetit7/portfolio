@@ -29,7 +29,7 @@ let projectMarkup = projectData.map(project =>
 ).join('')
 
 cardContainer.innerHTML = projectMarkup
-console.log(projectMarkup)
+//console.log(projectMarkup)
 
 let contactTile = document.querySelector('#contactTile')
 let contactPage = document.querySelector('.contactPage')
@@ -40,4 +40,44 @@ contactTile.addEventListener('click', contactClick)
 
 function contactClick() {
     contactPage.scrollIntoView()
+}
+
+let devworkTile = document.querySelector('#devWorkTile')
+let devworkPage = document.querySelector('.devWorkPage')
+
+
+
+devworkTile.addEventListener('click', devworkClick)
+
+function devworkClick() {
+    devworkPage.scrollIntoView()
+}
+
+let resumeTile = document.querySelector('#resumeTile')
+let resumePage = document.querySelector('#resumePage')
+
+
+
+resumeTile.addEventListener('click', resumeClick)
+
+function resumeClick() {
+    resumePage.scrollIntoView()
+}
+
+let pastworkTile = document.querySelector('#pastWorkTile')
+let pastworkPage = document.querySelector('#pastWorkCar')
+
+pastworkTile.addEventListener('click', pastworkClick)
+
+function pastworkClick() {
+    pastworkPage.scrollIntoView()
+}
+
+let aboutTile = document.querySelector('#aboutMeTile')
+let aboutPage = document.querySelector('#aboutMePage')
+
+aboutTile.addEventListener('click', aboutClick)
+
+function aboutClick() {
+    aboutPage.scrollIntoView()
 }
