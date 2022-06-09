@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    display: grid;
 }
 
 ::after{
@@ -8,61 +9,88 @@ html {
 
 #header {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 1em #f9aec9;
+    font-family: 'Neonderthaw', cursive;
+    tex
     }
 
 #headerPic {
-    height: 250px;
+    height: 350px;
 }
 .topPage {
-    background-image:url(/assets/images/pexels-eberhard-grossgasteiger-1366907.jpg);
-    background-size:cover;
-
+    background-image:url(/assets/images/open\ pexels-pratik-gupta-2995188\ Large.jpeg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
+
+.mainbody {
+    background-color: #000;
+}
+
+
 .tiles {
     display: grid;
     text-align: center;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-    
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .tiles > div {
     padding: auto;
-    background-color: rgb(103, 94, 94);
+    background-color: rgb(9, 1, 1);
     text-align: center;
-    box-shadow: 10px 10px 10px  #000;
+    box-shadow: 10px 10px 10px  rgb(231, 91, 91);
     margin: 220px auto 220px auto;
-    color: whitesmoke;
+    color: rgb(69, 145, 195);
 }
 .tiles > div:hover {
-    background-color: black;
+    background-color: rgb(39, 22, 22);
     color: rgb(103, 94, 94) ;
 }
 
 #aboutMePage {
     text-align: center;
+    padding: 500px 0 500px 0;
+    
+}
+#aboutMePage.h1 {
+    padding-bottom: 50px;
+
 }
 
 #pastWorkCar {
-    margin: 10px ;
+    margin: 50px ;
     max-width: 2550px;
     min-height: 400px;
+    
+}
+.carousel-caption {
+    
+    background-color: rgba(0, 0, 0, 0.739);
+    color: rgb(231, 91, 91);
 }
 .contact {
-    height: 300px;
-    width: 100%;
-    background-size: contain;
+    padding: 300px;
+    display: grid;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);
 }
 #resumePage {
+    /* color: rgb(69, 145, 195);
+    background-color: #000; */
     flex-direction: row;
     display:flex;
 }
 
-resume{
-    text-size-adjust: ;
-    text: center
+#skillsheader{
+    
 }
 
 @media only screen and (max-width:768px) {
