@@ -2,7 +2,7 @@
 
 
 import { projectData } from "./project-data.js"
-console.log(projectData)
+// console.log(projectData)
 
 const cardContainer = document.getElementById('card-container')
 
@@ -30,3 +30,11 @@ let projectMarkup = projectData.map(project =>
 
 cardContainer.innerHTML = projectMarkup
 console.log(projectMarkup)
+
+
+
+document.getElementById("#contact").addEventListener('click', contactClick)
+
+function contactClick() {
+    document.getElementsByClassName(".contact").scrollIntoView()
+}

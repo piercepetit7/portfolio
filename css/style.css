@@ -54,7 +54,7 @@ html {
 }
 
 #headerpic {
-    
+
 }
 
 #pastWorkCar {
@@ -63,11 +63,16 @@ html {
     min-height: 400px;
     
 }
+#pastWorkCar {
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(231, 91, 91);
+}
 .carousel-caption {
     font-family: 'Share Tech Mono', monospace;
     background-color: rgba(0, 0, 0, 0.739);
     color: rgb(231, 91, 91);
 }
+
 .contact {
     padding: 300px ;
     font-family: 'Share Tech Mono', monospace;
