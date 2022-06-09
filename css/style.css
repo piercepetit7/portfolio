@@ -13,8 +13,7 @@ html {
     color: #ffffff;
     text-shadow: 0 0 1em #f9aec9;
     font-family: 'Neonderthaw', cursive;
-    tex
-    }
+}
 
 #headerPic {
     height: 350px;
@@ -27,11 +26,6 @@ html {
     background-size: cover;
     
 }
-
-.mainbody {
-    background-color: #000;
-}
-
 
 .tiles {
     display: grid;
@@ -56,11 +50,11 @@ html {
 #aboutMePage {
     text-align: center;
     padding: 500px 0 500px 0;
-    
+    font-family: 'Share Tech Mono', monospace;
 }
-#aboutMePage.h1 {
-    padding-bottom: 50px;
 
+#headerpic {
+    
 }
 
 #pastWorkCar {
@@ -70,23 +64,36 @@ html {
     
 }
 .carousel-caption {
-    
+    font-family: 'Share Tech Mono', monospace;
     background-color: rgba(0, 0, 0, 0.739);
     color: rgb(231, 91, 91);
 }
 .contact {
-    padding: 300px;
+    padding: 300px ;
+    font-family: 'Share Tech Mono', monospace;
+    color: yellow;
     display: grid;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);
 }
+
 #resumePage {
     /* color: rgb(69, 145, 195);
     background-color: #000; */
     flex-direction: row;
     display:flex;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.devWork {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#resumepic {
+    height: 650px;
+    padding-right: 100px;
 }
 
 #skillsheader{
