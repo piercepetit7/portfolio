@@ -9,7 +9,7 @@
         info: ,
     }, -->
 
-![Alt text] (./assets/images/project-pics/websitepic.jpeg)
+![](/assets/images/project-pics/websitepic.jpeg)
 
 // background Photo by Pratik Gupta: https://www.pexels.com/photo/open-neon-signage-turned-on-2995188/
 
