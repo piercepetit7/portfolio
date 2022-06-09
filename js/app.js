@@ -31,10 +31,13 @@ let projectMarkup = projectData.map(project =>
 cardContainer.innerHTML = projectMarkup
 console.log(projectMarkup)
 
+let contactTile = document.querySelector('#contactTile')
+let contactPage = document.querySelector('.contactPage')
+//console.log(contactTile,contactPage)
 
 
-document.getElementById("#contact").addEventListener('click', contactClick)
+contactTile.addEventListener('click', contactClick)
 
 function contactClick() {
-    document.getElementsByClassName(".contact").scrollIntoView()
+    contactPage.scrollIntoView()
 }
