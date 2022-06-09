@@ -45,8 +45,8 @@ html {
     color: rgb(69, 145, 195);
 }
 .tiles > div:hover {
-    background-color: rgb(39, 22, 22);
-    color: rgb(103, 94, 94) ;
+    background-color: rgb(243, 238, 238);
+    color: rgb(0, 0, 0) ;
 }
 
 #aboutMePage {
@@ -56,10 +56,6 @@ html {
 }
 #aboutMePage > p {
     padding: 10px 50px 10px 50px;
-}
-
-#headerpic {
-
 }
 
 #pastWorkCar {
@@ -117,11 +113,6 @@ html {
 .devWorkPage {
     font-family: 'Share Tech Mono', monospace;
     margin-bottom: 300px;
-    align-items: center;
-}
-#card-container {
-    display: block;
-    align-items: center;
 }
 
 #resumepic {
@@ -130,7 +121,7 @@ html {
 }
 
 #skillsheader{
-    
+    text-align: center;
 }
 
 @media only screen and (min-width:768px) {
