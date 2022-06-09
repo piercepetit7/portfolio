@@ -15,7 +15,7 @@ html {
     font-family: 'Neonderthaw', cursive;
 }
 #header > h1 {
-    font-size: 70px;
+    font-size: 95px;
 }
 #headerPic {
     height: 350px;
@@ -54,6 +54,9 @@ html {
     padding: 500px 0 500px 0;
     font-family: 'Share Tech Mono', monospace;
 }
+#aboutMePage > p {
+    padding: 10px 50px 10px 50px;
+}
 
 #headerpic {
 
@@ -63,7 +66,7 @@ html {
     margin: 50px ;
     max-width: 2550px;
     min-height: 400px;
-    
+    margin-bottom: 200px;
 }
 #pastWorkCar {
     font-family: 'Share Tech Mono', monospace;
@@ -85,6 +88,11 @@ html {
     background-position: center;
     background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);
 }
+#contentcontact { 
+    position: relative;
+    align-items: ;
+
+}
 
 #resumePage {
     /* color: rgb(69, 145, 195);
@@ -92,10 +100,28 @@ html {
     flex-direction: row;
     display:flex;
     font-family: 'Share Tech Mono', monospace;
+    margin-bottom: 200px;
 }
+
+.btn {
+    background-color: rgb(245, 245, 51);
+    color: black;
+}
+
+.card-body {
+    background-color: black;
+    color:#ffffff
+}
+
 
 .devWorkPage {
     font-family: 'Share Tech Mono', monospace;
+    margin-bottom: 300px;
+    align-items: center;
+}
+#card-container {
+    display: block;
+    align-items: center;
 }
 
 #resumepic {
