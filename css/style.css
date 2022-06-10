@@ -110,7 +110,7 @@ html {
     font-size: 25px;
     padding: 10px 0 10px 0;
 }
-#linkedIn:hover,#gitHub:hover, #spotify:hover {
+#linkedIn:hover,#gitHub:hover, #spotify:hover, #strava:hover{
     color: gold;
     font-size: 35px;
     background-color: rgba(125, 117, 117, 0.408);
@@ -156,10 +156,10 @@ html {
 .card {
     margin: 30px auto 0;
     width: 85%;
+    
     border: gray;
     background-color: gray;
 }
-
 #card-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

@@ -116,3 +116,11 @@ function spotifyClick() {
     window.open("https://open.spotify.com/user/piercepetit7?si=RH02uPHPSBON1_mRSYCH6Q");
 }
 
+let strava = document.getElementById('strava')
+
+strava.addEventListener('click', stravaClick)
+
+function stravaClick() {
+    window.open("https://www.strava.com/athletes/1655143");
+}
+
