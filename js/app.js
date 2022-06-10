@@ -31,6 +31,9 @@ let projectMarkup = projectData.map(project =>
 cardContainer.innerHTML = projectMarkup
 //console.log(projectMarkup)
 
+// Tile Functions
+
+
 let contactTile = document.querySelector('#contactTile')
 let contactPage = document.querySelector('.contactPage')
 //console.log(contactTile,contactPage)
@@ -81,3 +84,8 @@ aboutTile.addEventListener('click', aboutClick)
 function aboutClick() {
     aboutPage.scrollIntoView()
 }
+
+
+// link functions
+
+let linkedIn = document.querySelector('linkedIn')

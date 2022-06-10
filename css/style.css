@@ -94,14 +94,18 @@ html {
     background-origin: content-box;
     background-color: black;
 }
-
+.contTitle {
+    font-size: 50px;
+}
 .contentcontact {
+    grid-column: 3;
     text-align: right;
+    font-size: 25px;
 
 }
 
 #resumePage {
-    background-color: #000; 
+     
     flex-direction: column;
     display:flex;
     font-family: 'Share Tech Mono', monospace;
@@ -155,6 +159,7 @@ html {
 .devWorkPage {
     font-family: 'Share Tech Mono', monospace;
     margin-bottom: 300px;
+    text-align: center;
 }
 
 
