@@ -105,7 +105,7 @@ html {
     font-size: 60px;
 }
 #skillBullets {
-    margin-left: 250px;
+    text-align: center;
 }
 #skillBullets > h2 {
     text-align: center;
