@@ -1,12 +1,15 @@
 html {
     box-sizing: border-box;
     display: grid;
+
 }
 
 ::after{
     box-sizing: inherit;
 }
-
+.mainBody {
+    background-color: grey;
+}
 #header {
     text-align: center;
     padding-top: 50px;
@@ -57,6 +60,10 @@ html {
 }
 #aboutMePage > p {
     padding: 10px 50px 10px 50px;
+    font-size: 22px;
+}
+#aboutMePage > h1 {
+    font-size: 65px;
 }
 
 #pastWorkCar {
@@ -149,7 +156,8 @@ html {
 .card {
     margin: 30px auto 0;
     width: 85%;
-    border: #ffffff;
+    border: gray;
+    background-color: gray;
 }
 
 #card-container {
@@ -161,6 +169,11 @@ html {
     width: cover;
     height: auto;
     object-fit: cover;
+    background-color: gray;
+}
+.img-fluid {
+    width: auto;
+    height: auto;
 }
 
 .devWorkPage {
@@ -188,6 +201,8 @@ html {
     }
     #skillBullets {
         margin-top: 200px;
+        padding-left: 150px;
+        padding-right: 100px;
     }
     #skillBullets > h2 {
         font-size: 45px;
