@@ -23,5 +23,9 @@ Backtrap Card and Carousel used
 carousel: https://getbootstrap.com/docs/5.1/components/carousel/
 Card: https://getbootstrap.com/docs/5.1/components/card/
 
+Google Fonts 
+"Share Tech Mono"
+"Neonderthaw"
+
 
 <!-- // background about Photo by Mahmoud A. Hassan: https://www.pexels.com/photo/a-neon-lighted-statement-of-words-2915965/ -->

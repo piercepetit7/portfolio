@@ -26,8 +26,8 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
+
 
 .tiles {
     display: grid;
@@ -51,7 +51,7 @@ html {
 
 #aboutMePage {
     text-align: center;
-    padding: 500px 0 500px 0;
+    padding: 300px 0 500px 0;
     font-family: 'Share Tech Mono', monospace;
 }
 #aboutMePage > p {
@@ -61,12 +61,17 @@ html {
 #pastWorkCar {
     margin: 50px ;
     max-width: 2550px;
-    min-height: 400px;
+    min-height: 300px;
     margin-bottom: 200px;
-}
-#pastWorkCar {
     font-family: 'Share Tech Mono', monospace;
     color: rgb(231, 91, 91);
+}
+#pastWorkCar > h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: black;
+
 }
 .carousel-caption {
     font-family: 'Share Tech Mono', monospace;
@@ -78,51 +83,74 @@ html {
     padding: 300px ;
     font-family: 'Share Tech Mono', monospace;
     color: yellow;
-    display: grid;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);
 }
-#contentcontact { 
-    position: relative;
-    align-items: ;
+#contentcontact {
 
 }
 
 #resumePage {
     /* color: rgb(69, 145, 195);
     background-color: #000; */
-    flex-direction: row;
+    flex-direction: column;
     display:flex;
     font-family: 'Share Tech Mono', monospace;
     margin-bottom: 200px;
 }
-
+#resumePage > h2 {
+    text-align: center;
+    font-size: 60px;
+}
+#skillBullets {
+    margin-left: 250px;
+}
+#skillBullets > h2 {
+    text-align: center;
+}
+#resumepic {
+    width: 100% ;
+    max-width: 700px;
+}
 .btn {
     background-color: rgb(245, 245, 51);
     color: black;
+    border: rgb(245, 245, 51);
+}
+.btn:hover{
+    background-color: black;
+    color:rgb(245, 245, 51) ;
 }
 
 .card-body {
     background-color: black;
     color:#ffffff
 }
+.card {
+    margin: 30px auto 0;
+    width: 85%;
+    border: #ffffff;
+}
 
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.col-md-4 {
+    width: cover;
+    height: auto;
+    object-fit: cover;
+}
 
 .devWorkPage {
     font-family: 'Share Tech Mono', monospace;
     margin-bottom: 300px;
 }
 
-#resumepic {
-    height: 650px;
-    padding-right: 100px;
-}
 
-#skillsheader{
-    text-align: center;
-}
 
 @media only screen and (min-width:768px) {
     .tiles {
@@ -132,4 +160,23 @@ html {
     .tiles > div {
         margin: 220px auto 220px auto;
     }
+    #card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #resumePage {
+        flex-direction: row;
+        display:flex;
+    }
+    #skillBullets {
+        margin-top: 200px;
+    }
+    #skillBullets > h2 {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    #skillBullets > li {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    
 }
