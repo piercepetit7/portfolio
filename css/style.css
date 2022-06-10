@@ -18,7 +18,8 @@ html {
     font-size: 95px;
 }
 #headerPic {
-    height: 350px;
+    height: 550px;
+    width: 400px;
 }
 .topPage {
     background-image:url(/assets/images/open\ pexels-pratik-gupta-2995188\ Large.jpeg);
@@ -80,21 +81,27 @@ html {
 }
 
 .contactPage {
-    padding: 300px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: minmax(auto, 300px);
     font-family: 'Share Tech Mono', monospace;
-    color: yellow;
+    color: whitesmoke;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);
+    padding: 200px 0 200px 0;
+    background-origin: content-box;
+    background-color: black;
 }
-#contentcontact {
+
+.contentcontact {
+    text-align: right;
 
 }
 
 #resumePage {
-    /* color: rgb(69, 145, 195);
-    background-color: #000; */
+    background-color: #000; 
     flex-direction: column;
     display:flex;
     font-family: 'Share Tech Mono', monospace;
@@ -177,6 +184,7 @@ html {
     #skillBullets > li {
         font-size: 20px;
         padding-bottom: 10px;
+        text-align: left;
     }
     
 }
