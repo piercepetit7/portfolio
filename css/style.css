@@ -51,7 +51,7 @@ html {
 .tile:hover {
     background-color: rgb(243, 238, 238);
     color: rgb(0, 0, 0) ;
-    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.418);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.806);
 }
 
 #aboutMePage {
