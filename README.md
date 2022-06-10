@@ -1,4 +1,4 @@
-# portfolio
+# Pierce Petit's Portfolio
 
 <!-- // layout for project page
 <!-- { 
