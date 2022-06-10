@@ -88,4 +88,31 @@ function aboutClick() {
 
 // link functions
 
-let linkedIn = document.querySelector('linkedIn')
+let linkedIn = document.getElementById('linkedIn')
+//console.log(linkedIn)
+linkedIn.addEventListener('click', linkedInClick)
+
+function linkedInClick() {
+    window.open("https://www.linkedin.com/in/pierce-petit-430a31208/");
+}
+
+
+
+let gitHub = document.getElementById('gitHub')
+
+gitHub.addEventListener('click', gitHubClick)
+
+function gitHubClick() {
+    window.open("https://github.com/piercepetit7");
+}
+
+
+
+let spotify = document.getElementById('spotify')
+
+spotify.addEventListener('click', spotifyClick)
+
+function spotifyClick() {
+    window.open("https://open.spotify.com/user/piercepetit7?si=RH02uPHPSBON1_mRSYCH6Q");
+    
+}
