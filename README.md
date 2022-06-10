@@ -25,18 +25,23 @@ Planning: https://trello.com/b/MxLr1NM7/pierce-portfolio
 Backtrap Card and Carousel used
 
 carousel: https://getbootstrap.com/docs/5.1/components/carousel/
+
 Card: https://getbootstrap.com/docs/5.1/components/card/
 
 Google Fonts 
-"Share Tech Mono"
+"Share Tech Mono",
 "Neonderthaw"
 
 
 Icebox features are:
-downloadable resume
-scrolling animation
-better main background
-carousel fixes
+
+downloadable resume,
+
+scrolling animation,
+
+better main background,
+
+carousel fixes,
 
 
 <!-- // background about Photo by Mahmoud A. Hassan: https://www.pexels.com/photo/a-neon-lighted-statement-of-words-2915965/ -->
