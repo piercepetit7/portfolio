@@ -90,7 +90,7 @@ html {
     background-size: cover;
     background-position: center;
     background-image: url(/assets/images/pexels-daria-shevtsova-1356300\ 2\ Large.jpeg);
-    padding: 200px 0 200px 0;
+    padding: 400px 0 300px 0;
     background-origin: content-box;
     background-color: black;
 }
@@ -101,6 +101,14 @@ html {
     grid-column: 3;
     text-align: right;
     font-size: 25px;
+    padding: 10px 0 10px 0;
+}
+#linkedIn:hover,#gitHub:hover, #spotify:hover {
+    color: gold;
+    font-size: 35px;
+    background-color: rgba(125, 117, 117, 0.408);
+    background-size: auto;
+    text-align: center;
 
 }
 
