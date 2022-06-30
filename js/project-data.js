@@ -13,6 +13,13 @@ let projectData = [
         github: 'https://github.com/piercepetit7/portfolio',
         info: 'Simple website lacking CSS with some JavaScript functions',
     },
+    {
+        title: 'The Dub Tracker!' ,
+        deployment:'https://drop-team-dub-tracker.herokuapp.com/' ,
+        image:"" ,
+        github: 'https://github.com/piercepetit7/dub-tracker',
+        info: 'A MEN stack CRUD application that shows express, Node, and MongoDB. This website helps you track wins in Fortnite',
+    },
 ]
 
 export {
