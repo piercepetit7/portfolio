@@ -16,7 +16,7 @@ let projectData = [
     {
         title: 'The Dub Tracker!' ,
         deployment:'https://drop-team-dub-tracker.herokuapp.com/' ,
-        image:"" ,
+        image:"assets/images/project-pics/dubtracker.png" ,
         github: 'https://github.com/piercepetit7/dub-tracker',
         info: 'A MEN stack CRUD application that shows express, Node, and MongoDB. This website helps you track wins in Fortnite',
     },
